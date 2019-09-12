@@ -23,4 +23,6 @@ To backup the full strapi project's files and db datas, type:
 Restoring will delete current containers (*strapi* and *strapi_db*) if present, regenerate new containers and inject the files and db datas of the backup.
 
 To restore a file, just type:
-```./strapi-restore name-of-the-file.tar.gz``
+```
+./strapi-restore name-of-the-file.tar.gz
+```
