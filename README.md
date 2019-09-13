@@ -1,5 +1,5 @@
 # Strapidocker-tools
-Tools to create / backup and restore a [strapi docker container](https://github.com/strapi/strapi-docker).
+Tools to create / backup and restore a [strapi docker container](https://github.com/strapi/strapi-docker) and an associated ***mysql database*** container.
 
 Usecase: local preparation of an API using [strapi](https://strapi.io/) in a docker environement where devs need to quickly test & iterate or just move copies of the project around.
 
@@ -26,3 +26,10 @@ To restore a file, just type:
 ```
 ./strapi-restore name-of-the-file.tar.gz
 ```
+
+# Possible upcoming/WIP features
+- MongoDB version
+- Better way to ignore *node_modules* folder on backup
+- Install script to archieve:
+  - Dynamic naming of containers per project
+  - Dynamic db type choice on installation
